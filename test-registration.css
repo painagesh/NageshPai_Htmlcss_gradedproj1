@@ -1,0 +1,77 @@
+* {
+    margin:0;
+}
+
+.parentTable{
+    position: relative;
+    top: 5%;
+    left: 15%;
+    right:15%;
+    width:70vw;
+    box-shadow: -2px -2px 2px 1px grey;
+    padding:0;
+    overflow: scroll;
+}
+
+.formsection {
+    vertical-align: top;
+    width:35vw;
+    height:100%
+    float:left;
+    text-align: left;
+    border: 1px solid black;
+    overflow:scroll;
+}
+
+h3 {
+    padding-left:10px;
+}
+
+
+div .align-elements {
+    display: block;
+    position: absolute;
+    bottom:0;
+    left: 15%;
+    right:15%;
+    align-content: center;
+}
+
+.btn {
+    background-color: violet;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+    font-size: 8px;
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+    text-align: center;
+}
+
+
+.imgsection {
+    float:right;
+    width:35vw;
+    box-shadow: 2px 2px 2px 1px grey;
+    border: 1px solid black;
+
+}
+
+.image {
+    max-width:35vw;
+    overflow:scroll;
+}
+
+.cell {
+    min-width:200px;
+}
+
+article {
+    padding: 20px 0px;
+}
